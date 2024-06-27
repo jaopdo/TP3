@@ -1,0 +1,74 @@
+Arquitetura do Projeto
+
+Escolhas de Tecnologias
+**Frontend:** React.js
+**Backend:** Node.js com Express
+**Banco de Dados:** MongoDB
+**Autenticação:** JWT (JSON Web Token)
+
+Projeto Arquitetural
+O projeto segue a arquitetura MVC (Model-View-Controller).
+
+Diagrama de Contexto
+Aqui está o diagrama de contexto que mostra os principais componentes e suas interações:
+
+![Diagrama de Contexto](./diagrams/context_diagram.png)
+
+Diagrama de Containers
+O diagrama de containers detalha os principais containers (aplicações e serviços) que compõem o sistema.
+
+![Diagrama de Containers](./diagrams/container_diagram.png)
+
+Diagrama de Componentes
+Este diagrama mostra os componentes internos de cada container e como eles interagem.
+
+![Diagrama de Componentes](./diagrams/component_diagram.png)
+
+Justificativa do Modelo Escolhido
+A arquitetura MVC foi escolhida por sua separação clara de responsabilidades, o que facilita a manutenção e a escalabilidade do projeto.
+O uso de tecnologias modernas como React.js e Node.js permite o desenvolvimento de uma aplicação eficiente, escalável e de fácil manutenção.
+O MongoDB foi escolhido como banco de dados devido à sua flexibilidade e facilidade de uso com dados não estruturados.
+O JWT é usado para autenticação para garantir a segurança das transações do usuário.
+
+Plano de Testes
+
+Caso de Uso: Adicionar Tarefa
+Descrição
+O usuário adiciona uma nova tarefa à lista de tarefas.
+
+Passos do Teste
+1. O usuário faz login na aplicação.
+2. O usuário clica no botão "Adicionar Tarefa".
+3. O usuário preenche os campos "Título" e "Descrição".
+4. O usuário clica no botão "Salvar".
+
+Resultados Esperados
+- A tarefa é adicionada à lista de tarefas do usuário.
+- Uma mensagem de sucesso é exibida.
+
+Caso de Uso: Editar Tarefa
+Descrição
+O usuário edita uma tarefa existente na lista de tarefas.
+
+Passos do Teste
+1. O usuário faz login na aplicação.
+2. O usuário clica em uma tarefa existente.
+3. O usuário edita os campos "Título" e "Descrição".
+4. O usuário clica no botão "Salvar".
+
+Resultados Esperados
+- A tarefa é atualizada com as novas informações.
+- Uma mensagem de sucesso é exibida.
+
+Caso de Uso: Deletar Tarefa
+Descrição
+O usuário deleta uma tarefa existente na lista de tarefas.
+
+Passos do Teste
+1. O usuário faz login na aplicação.
+2. O usuário clica no ícone de lixeira ao lado de uma tarefa existente.
+3. O usuário confirma a exclusão.
+
+Resultados Esperados
+- A tarefa é removida da lista de tarefas do usuário.
+- Uma mensagem de sucesso é exibida.

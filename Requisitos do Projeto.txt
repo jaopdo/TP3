@@ -1,0 +1,22 @@
+Objetivo
+Desenvolver uma aplicação web para gerenciar tarefas pessoais, ajudando os usuários a organizar suas atividades diárias.
+
+Problema
+A falta de organização das tarefas diárias pode levar a atrasos e esquecimentos, prejudicando a produtividade e a gestão do tempo.
+
+Tipo de Solução
+Uma aplicação web responsiva que permita aos usuários adicionar, editar, deletar e visualizar suas tarefas.
+
+Requisitos Funcionais
+1. O usuário deve ser capaz de criar uma conta.
+2. O usuário deve ser capaz de fazer login e logout.
+3. O usuário deve ser capaz de adicionar novas tarefas.
+4. O usuário deve ser capaz de editar tarefas existentes.
+5. O usuário deve ser capaz de deletar tarefas.
+6. O usuário deve ser capaz de visualizar a lista de tarefas.
+
+Requisitos Não Funcionais
+1. A aplicação deve ser responsiva e funcionar em diferentes dispositivos (desktop, tablet, smartphone).
+2. O sistema deve ter uma interface amigável e fácil de usar.
+3. A aplicação deve ter um tempo de resposta aceitável (menos de 2 segundos por operação).
+4. O sistema deve garantir a segurança dos dados do usuário.

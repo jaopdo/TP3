@@ -1,0 +1,13 @@
+Geral:
+Configurar ambiente de desenvolvimento
+Implementar sistema de autenticação (Login/Logout)
+Implementar funcionalidade de adição de tarefas
+Implementar funcionalidade de edição de tarefas
+Implementar funcionalidade de exclusão de tarefas
+Implementar visualização de lista de tarefas
+Testar funcionalidades
+Documentar o código e as funcionalidades
+TP2:
+Implementar sistema de autenticação (Login/Logout)
+Implementar funcionalidade de adição de tarefas
+Implementar funcionalidade de edição de tarefas
